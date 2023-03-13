@@ -9686,8 +9686,7 @@ textarea.form-control {
     .ftco-about{
       background-color: rgb(16 14 14);
     }
-    @media (min-width: 576px) {
-    .no-image-mbl{
-      display: none;
-    }
-  }
+BODY,HTML{
+  width: 100vw;
+  height:100%;
+}
