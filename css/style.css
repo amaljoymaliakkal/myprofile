@@ -9687,7 +9687,7 @@ textarea.form-control {
       background-color: rgb(16 14 14);
     }
 BODY,HTML{
-  overflow-x: hidden;
-  overflow-y: auto !important;
+
+  overflow: auto !important;
   
 }
