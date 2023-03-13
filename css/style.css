@@ -9691,3 +9691,13 @@ BODY,HTML{
   overflow: auto !important;
   
 }
+@media (max-width: 576px)  {
+  .owl-carousel.home-slider {
+    position: relative;
+    height: 100vw !important;
+    z-index: 0;
+}
+.owl-carousel.home-slider .slider-item .slider-text .one-forth {
+  top:-229px !important
+}
+}
