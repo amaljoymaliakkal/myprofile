@@ -9694,10 +9694,10 @@ BODY,HTML{
 @media (max-width: 576px)  {
   .owl-carousel.home-slider {
     position: relative;
-    height: 100vw !important;
+    height: 700px!important;
     z-index: 0;
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-forth {
-  top:-229px !important
+  top:-119px !important
 }
 }
