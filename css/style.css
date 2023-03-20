@@ -9702,3 +9702,28 @@ BODY,HTML{
   top:-229px !important
 }
 }
+
+.address-text{
+  color: #fff !important;
+}
+
+.available_text{
+  color: #000 !important;
+}
+
+.freelance_text{
+  color: #fff;
+}
+
+
+#hire_me{
+  background-color: #000 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+}
+
+.cursor_pointer{
+  pointer-events: none !important;
+  z-index: 1000;
+  position: relative;
+}
