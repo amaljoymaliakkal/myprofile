@@ -9738,3 +9738,75 @@ BODY,HTML{
   padding-left: 26px;
 }
 }
+
+
+#portfolio .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.portfolio-col{
+  border-radius: 17px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-col img{
+  width: 100%;
+  border-radius: 17px;
+  transition: transform 0.5s;
+}
+
+.portfolio-col:hover img {
+  transform: scale(1.2);
+}
+
+#portfolio .layer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(255,207,0,0.8694698033707865) 0%, rgba(38,38,38,0.644750702247191) 100%);
+  border-radius: 17px;
+  padding: 0 40px;
+  text-align: center;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+#portfolio .layer h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#portfolio .layer p{
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+#portfolio .layer a {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 17px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+
+}
+
+#portfolio .portfolio-col:hover .layer {
+  height: 100%;
+}
