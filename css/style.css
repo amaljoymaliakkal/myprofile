@@ -9810,3 +9810,12 @@ BODY,HTML{
 #portfolio .portfolio-col:hover .layer {
   height: 100%;
 }
+
+
+.portfolio-col p{
+  color: #fff;
+}
+
+.shadow_light{
+  opacity: 0.9;
+}
