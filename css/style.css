@@ -9773,7 +9773,7 @@ BODY,HTML{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(0deg, rgba(255,207,0,0.8694698033707865) 0%, rgba(38,38,38,0.644750702247191) 100%);
+  background: #ffbd39;
   border-radius: 17px;
   padding: 0 40px;
   text-align: center;
@@ -9819,3 +9819,12 @@ BODY,HTML{
 .shadow_light{
   opacity: 0.9;
 }
+
+
+.rounder-raduisu-images .ftco-animated{
+  border-radius: 10px  !important;}
+
+.overlay{
+
+    border-radius: 10px;
+  }
